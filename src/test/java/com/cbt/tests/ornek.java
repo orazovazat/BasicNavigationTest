@@ -16,5 +16,6 @@ public class ornek {
 //        driver = BrowserFactory.getDriver("edge");
 
         System.out.println("Test");
+        System.out.println("from dev to master");
     }
 }
