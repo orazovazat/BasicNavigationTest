@@ -1,4 +1,4 @@
-package com.cbt.tests;
+package com.cbt.tests.locators_tests;
 
 import com.cbt.utilities.BrowserFactory;
 import com.cbt.utilities.SeleniumUtils;

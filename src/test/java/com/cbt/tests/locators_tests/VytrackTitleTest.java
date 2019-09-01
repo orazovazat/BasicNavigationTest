@@ -1,4 +1,4 @@
-package com.cbt.tests;
+package com.cbt.tests.locators_tests;
 
 import com.cbt.utilities.BrowserFactory;
 import com.cbt.utilities.SeleniumUtils;
@@ -15,7 +15,7 @@ public class VytrackTitleTest {
 //    }
 
     @Test
-    public static void TitleTest(){
+    public void TitleTest(){
         WebDriver driver = BrowserFactory.getDriver("chrome");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();

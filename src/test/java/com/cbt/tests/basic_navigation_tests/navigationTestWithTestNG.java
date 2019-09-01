@@ -1,4 +1,4 @@
-package com.cbt.tests;
+package com.cbt.tests.basic_navigation_tests;
 
 import com.cbt.utilities.BrowserFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
