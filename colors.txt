@@ -3,6 +3,7 @@ red
 orange
 pink
 black
+yellow
 
 ####
 grey
