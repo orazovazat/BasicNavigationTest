@@ -1,6 +1,13 @@
 package com.cbt.utilities;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 public class StringUtility {
+
+   public static WebDriver driver;
 
     public static void verifyEquals(String expected , String actual){
         if(actual.equals(expected)){
@@ -12,5 +19,6 @@ public class StringUtility {
         }
 
     }
+
 
 }
